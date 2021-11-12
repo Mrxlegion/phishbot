@@ -14,7 +14,13 @@
 
 It only demonstrates "how phishing works". <b>You shall not misuse the information to gain unauthorized access to someones social media</b>. However you may try out this at your own risk.</i>
 
-##
+
+
+
+
+
+
+
 
 ### Features
 
@@ -28,20 +34,35 @@ It only demonstrates "how phishing works". <b>You shall not misuse the informati
   - Cloudflared (Alternative of Ngrok)
 
 
+
+
+
+
+
+
+
+
 ### Installation
 
 - Just, Clone this repository -
 ```
-$ git clone git://github.com/Mrxlegion/phishbot.git
+
+
+$ git clone https://github.com/Mrxlegion/phishbot.git
 ```
 
 - Change to cloned directory and run `phishbot.sh` -
 ```
+
+
 $ cd phishbot
 $ bash phishbot.sh
 ```
 
 - On first launch, It'll install the dependencies and that's it. `phishbot` is installed.
+
+
+
 
 ### Dependencies
 
@@ -59,8 +80,16 @@ $ bash phishbot.sh
 
 
 
+
+
+
+
+
 ### Find Me on :
 GitHub :- 
 https://github.com/Mrxlegion/
+
+
+
 Instagram :-
 https://www.instagram.com/legion_mrx/
