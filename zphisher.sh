@@ -152,7 +152,7 @@ banner() {
                          ┗┛╋╋┗┛┗┻┻━━┻┛┗┻━━┻┛┗━━┻━━┻━┛
 		                                    ${RED}Version :1.1
 
-		${GREEN}[${WHITE}-${GREEN}]${CYAN} Tool Created by Legion_MRX(MANISH)${WHITE}
+		${GREEN}[${WHITE}-${GREEN}]${CYAN} Tool Created by Legion_MRX${WHITE}
 	EOF
 }
 
